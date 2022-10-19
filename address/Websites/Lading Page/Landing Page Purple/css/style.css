@@ -1,0 +1,166 @@
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: Helvetica;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 3.5em;
+    line-height: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-weight: bold;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: Georgia;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+aside h2:nth-child(1) {
+    color: rgb(132, 13, 201);
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+li:nth-child(5) {
+    border: 2px solid rgb(132, 13, 201);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+li:nth-child(5):hover {
+    background-color: rgb(132, 13, 201);
+    transition: .3s all;
+}
+
+.efeito:hover {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(132, 13, 201);
+    transition: 0.3s all;
+}
+
+.logo-hover:hover {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+img {
+    width: 715px;
+    transform: translateX(35%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 13, 201);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    outline: 2px solid rgba(20, 20, 20, 0.596);
+}
+
+@media screen and (max-width: 920px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+
+    form {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input {
+        align-self: center;
+    }
+
+    img {
+        max-width: 25%;
+        margin-left: 37%;
+        transform: translateY(50px);
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    aside {
+        text-align: center;
+    }
+
+    p {
+        margin: 0 auto;
+    }
+
+    #title {
+        border: 1px solid rgba(207, 207, 207, 0.596);
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    #title:hover {
+        background-color: rgb(132, 13, 201);
+        transition: .3s all;
+    }
+}

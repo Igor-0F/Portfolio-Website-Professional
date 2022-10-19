@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #212121;
+    position: relative;
+    height: 100vh;
+}
+
+h1,
+h2 {
+    font-family: sans-serif;
+    line-height: 1.1;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding: 30px 0 20px;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+header .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav__content a {
+    font-size: .95em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    margin: 0 12px;
+    padding: 0 8px 5px;
+    position: relative;
+}
+
+.nav__content a::before {
+    content: "";
+    border-bottom: 2px solid white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 110%;
+    transition: .5s right ease-in-out;
+}
+
+.nav__content a:hover::before {
+    right: 0;
+}
+
+.search {
+    display: inline-block;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.search i {
+    font-size: 1.1em;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero {
+    width: 100%;
+    height: 100%;
+    background-color: #212121;
+    background-image: linear-gradient(95deg, #111111, #212121);
+    position: relative;
+}
+
+.mid {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.mid h2 {
+    font-size: 15em;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-text-stroke: 3px #ea1300;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.mid img {
+    width: 30%;
+    filter: drop-shadow(0 15px 15px #0000006d);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    z-index: 3;
+    animation: slide 2s ease-in-out;
+}
+
+@keyframes slide {
+    10% {
+        opacity: 0;
+        transform: translateY(-100px) translate(-50%, -50%) rotate(-30deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) translate(-50%, -50%) rotate(-30deg);
+    }
+}
+
+.bottom {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottom a {
+    font-size: 1.1em;
+    letter-spacing: 1.2px;
+    color: #ea1300;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
+
+.left-side {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.left-side a {
+    margin: 100px 0;
+    padding: 5px 15px 5px 0;
+    transform: rotate(-90deg);
+}
+
+.left-side a,
+.right-side a {
+    display: block;
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #4e4e4e;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    transition: .5s ease-in-out;
+}
+
+.left-side a:hover {
+    background-color: #ea1300;
+    color: white;
+}
+
+.left-side a.active {
+    color: white;
+}
+
+.right-side {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.right-side a {
+    margin: 50px 0;
+    padding: 10px 30px 10px 10px;
+}
+
+.right-side a:hover {
+    color: white;
+}
+
+.right-side a.active {
+    background-color: #ea1300;
+    color: white;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1366px) {
+    .mid h2 {
+        font-size: 15em;
+    }
+
+    .mid img {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1367px) {
+    .mid h2 {
+        font-size: 20em;
+    }
+
+    .mid img {
+        width: 33%;
+    }
+}

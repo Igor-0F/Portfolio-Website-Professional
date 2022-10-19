@@ -1,0 +1,245 @@
+@media screen and (max-width: 1305px) {
+    .home__content {
+        background-size: 80em;
+        background-position: 0 10em;
+    }
+
+    .main__content-image img {
+        width: 380px;
+    }
+
+    .main__social-icons {
+        top: 60%;
+    }
+
+    .products__container {
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+
+    .about__content-image {
+        margin-right: 9%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .home__content {
+        background-size: contain;
+    }
+
+    .main__content-text h1 {
+        margin: 0;
+    }
+
+    .main__content-text p,
+    .main__content-button {
+        margin: 3% 0;
+    }
+
+    .main__content-image {
+        display: none;
+    }
+
+    .main__social-icons {
+        top: 45%;
+    }
+
+    .products__container {
+        grid-template-columns: 5fr 5fr;
+        margin-left: 10%;
+    }
+
+    .mid__background {
+        background-position: -37em 0;
+    }
+
+    .login {
+        justify-content: center;
+        background-position: right;
+    }
+
+    .login__left {
+        display: none;
+    }
+
+    .login__right {
+        width: 100%;
+    }
+
+    .footer__content {
+        flex-wrap: wrap;
+    }
+
+    .footer__box {
+        width: 33%;
+        margin: 5% auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar__itens {
+        text-align: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 1%;
+    }
+
+    .navbar__list {
+        display: none;
+    }
+
+    .navbar__icons {
+        display: none;
+    }
+
+    .navbar__list-active {
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+        gap: 25px;
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .navbar__list-active a:hover {
+        border: transparent;
+    }
+
+    .navbar__menu {
+        display: block;
+        width: 22px;
+        font-size: 22px;
+    }
+
+    .main__social-icons {
+        left: 97%;
+    }
+
+    .about__content-image {
+        margin: 0;
+    }
+
+    .login {
+        background-position: -70em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .services h2,
+    .products h2,
+    .about h2,
+    .review h2 {
+        font-size: 45px;
+    }
+
+    span {
+        filter: drop-shadow(black 0px 0px 1px);
+    }
+
+    .main__content-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .main__content-text h1 {
+        filter: drop-shadow(black 3px 1px 4px);
+    }
+
+    .main__content-text p {
+        width: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .main__content-button {
+        width: 75%;
+    }
+
+    .main__social-icons {
+        position: initial;
+        font-size: 22px;
+        text-align: center;
+        transform: none;
+    }
+
+    .main__social-icons i {
+        margin: 8px 14px;
+    }
+
+    .mid__background {
+        background-position: -60em 0;
+    }
+
+    .products__container {
+        grid-template-columns: 5fr;
+        margin: auto 10%;
+    }
+
+    .about h2 {
+        margin: 5%;
+    }
+
+    .about__content {
+        justify-content: center;
+    }
+
+    .about__content-image {
+        flex-direction: column;
+    }
+
+    .about__box img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about__text {
+        width: 90%;
+    }
+
+    .about__text p {
+        background: none;
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+        -webkit-text-fill-color: black;
+    }
+
+    .about__image-small {
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .services h2 {
+        font-size: 40px;
+        padding-bottom: 5%;
+        width: 100%;
+    }
+
+    .services__box {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .login__right-form {
+        width: 90%;
+    }
+
+    .login__right h2 {
+        font-size: 34px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .footer__content {
+        flex-direction: column;
+    }
+
+    .footer__box {
+        font-size: 20px;
+        width: 90%;
+    }
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Igor Oliveira Ferreira">
+    <meta name="description"
+        content="Portfolio profissional do Desenvolvedor Igor Ferreira, possui todos o seus projetos, contato e cursos realizados">
+    <meta name="keywords" content="Portfolio, Desenvolvedor Front End, Developer, Front End, Website, buy sites">
+    <link rel="shortcut icon" href="./address/img/Icons/logotipo.png">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="./js/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./js/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/8acfbc413c.js" crossorigin="anonymous"></script>
+    <title>Igor Ferreira - Portfolio</title>
+</head>
+
+<body onload="loading()">
+    <div id="preloader"></div>
+    <div id="content">
+        <header class="top__header-page area-0">
+            <nav class="top__nav-page">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li>
+                        <i class="fa-solid fa-bars" id="menu__btn"></i>
+                    </li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                </ul>
+            </nav>
+            <div class="top__nav-mobile">
+                <ul>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Tools">Tools</a></li>
+                    <li><a href="#Softwares">Softwares</a></li>
+                    <li><a href="#Certificates">Certificates</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <section class="main__bg area-0" id="Home">
+            <article class="main__bg-text area-1">
+                <p>Olá, sou o Igor Ferreira</p>
+                <h2>Front End - <span>Developer</span></h2>
+                <p>Desde criança sou apaixonado pela tecnologia e hoje me encontro criando sites, tenho foco em
+                    desenvolvimento web e mobile. O que acha de fazer parte dessa história ?! Dê uma
+                    conferida
+                    nesse portfólio ou se achar melhor, já entre em contato comigo.</p>
+            </article>
+            <div class="main__bg-btn area-1">
+                <a href="#Contact">Contact</a>
+                <a href="#Portfolio">Portfolio</a>
+            </div>
+            <aside class="main__bg-arrow">
+                <i class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-chevron-down"></i>
+            </aside>
+        </section>
+        <main>
+            <section class="skills reveal area-0" id="Skills">
+                <h2>Skills</h2>
+                <article class="cards__skills area-2">
+                    <div class="skills__cards">
+                        <img src="./address/img/Skills/icon_1.png" alt="Icone de Design Responsivo">
+                        <div class="cards">
+                            <h3>Responsive Design</h3>
+                            <p>Website otimizado para
+                                todos os dispositivos.</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="skills__cards">
+                        <img src="./address/img/Skills/icon_2.png"
+                            alt="Icone de Design da Use Interface e User Experience" class="icon_2">
+                        <div class="cards">
+                            <h3>Design UX/UI</h3>
+                            <p>Desenhado da melhor forma possivel, para melhor usabilidade da plataforma.</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="skills__cards">
+                        <img src="./address/img/Skills/icon_3.png" alt="Icone descritivo sobre Programação">
+                        <div class="cards">
+                            <h3>HTML, CSS & JS</h3>
+                            <p>Ferramentas essênciais: SEO, BEM e Frameworks para desempenho máximo.</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="tools-softwares">
+                <section class="tools reveal-2 area-3" id="Tools">
+                    <h2>Tools</h2>
+                    <div class="tools__progress area-3">
+                        <div class="progress">
+                            <label for="html__progress">HTML</label>
+                            <progress id="html__progress" value="90" max="100"> 90% </progress>
+                            <label for="css__progress">CSS</label>
+                            <progress id="css__progress" value="95" max="100"> 95% </progress>
+                            <label for="bootsrap__progress">Boostrap</label>
+                            <progress id="bootsrap__progress" value="55" max="100"> 55% </progress>
+                            <label for="javascript__progress">Javascript</label>
+                            <progress id="javascript__progress" value="70" max="100"> 70% </progress>
+                            <label for="jquery__progress">JQuery</label>
+                            <progress id="jquery__progress" max="100"> In Progress </progress>
+                            <label for="typescript__progress">Typescript</label>
+                            <progress id="typescript__progress" max="100"> In Progress </progress>
+                        </div>
+                    </div>
+                </section>
+                <section class="softwares reveal-3 area-3" id="Softwares">
+                    <h2>Softwares</h2>
+                    <div class="softwares__content area-3">
+                        <img src="./address/img/Icons/vscode.png" alt="Icone do VsCode">
+                        <h3>VsCode</h3>
+                    </div>
+                    <div class="softwares__content area-3">
+                        <img src="./address/img/Icons/figma.png" alt="Icone do Figma">
+                        <h3>Figma</h3>
+                    </div>
+                    <div class="softwares__content area-3">
+                        <img src="./address/img/Icons/sublimeText.png" alt="Icone do SublimeText">
+                        <h3>SublimeText</h3>
+                    </div>
+                    <div class="softwares__content area-3">
+                        <img src="./address/img/Icons/photoshop.png" alt="Icone Adobe Photoshop">
+                        <h3>Adobe Photoshop</h3>
+                    </div>
+                    <div class="softwares__content area-3">
+                        <img src="./address/img/Icons/googleFonts2.png" alt="Icone do Google Fonts">
+                        <h3>Google Fonts</h3>
+                    </div>
+                </section>
+            </section>
+            <article class="certificates reveal-4 area-4" id="Certificates">
+                <h2>Certificates</h2>
+                <div class="slider-principal area-4" id="slider_flex">
+                    <img src="./address/Certificados/certificado 1.PNG" alt="Certificado da Udemy">
+                    <img src="./address/Certificados/certificado 2.PNG" alt="Segundo cerficado da Udemy">
+                    <img src="./address/Certificados/certificado 3.PNG" alt="certificado da HCode">
+                    <img src="./address/Certificados/certificado 4.PNG" alt="Certificado da Kenzie Academy">
+                    <img src="./address/Certificados/certificado 5.PNG" alt="Certificado do SENAI">
+                    <img src="./address/Certificados/certificado 6.PNG" alt="Certificado do Deploy">
+                </div>
+            </article>
+            <section class="portfolio reveal-5 area-5" id="Portfolio">
+                <h2>My Portfolio</h2>
+                <section class="portfolio__pages area-5">
+                    <div class="portfolio__cards area-5">
+                        <h4><span>Clone</span> Pages</h4>
+                        <div class="image__portfolio">
+                            <a href="./address/Websites/Clone Page/Clone Spotify/index.html" target="_blank"> <img
+                                    src="./address/IMG - Portfolio/Clone Pages/Spotify - layout final.png"
+                                    alt="Website Clone Spotify"></a>
+                            <a href="./address/Websites/Clone Page/Clone Disney+/index.html" target="_blank"> <img
+                                    src="./address/IMG - Portfolio/Clone Pages/Disney Plus - layout final.PNG"
+                                    alt="Website Clone Disney Plus"></a>
+                        </div>
+                    </div>
+                    <div class="portfolio__cards area-5">
+                        <h4><span>Landing</span> Pages</h4>
+                        <div class="image__portfolio">
+                            <a href="./address/Websites/Lading Page/Lading Page Shoes/index.html" target="_blank"> <img
+                                    src="./address/IMG - Portfolio/Lading Pages/Lading Page Nike Shoes.PNG"
+                                    alt="Lading Page Nike Shoes"></a>
+                            <a href="./address/Websites/Lading Page/Pokemon Page/index.html" target="_blank"> <img
+                                    src="./address/IMG - Portfolio/Lading Pages/Lading Page Pokemon Project.PNG"
+                                    alt="Lading Page Pokemon Project"></a>
+                            <a href="./address/Websites/Lading Page/Landing Page Purple/index.html" target="_blank">
+                                <img src="./address/IMG - Portfolio/Lading Pages/Lading Page Purple Theme.png"
+                                    alt="Lading Page Purple Theme"></a>
+                            <a href="./address/Websites/Lading Page/Landing Page House/index.html" target="_blank"> <img
+                                    src="./address/IMG - Portfolio/Lading Pages/Lading Page Design Houses.PNG"
+                                    alt="Lading Page Design Houses"></a>
+                            <a href="./address/Websites/Lading Page/Landing Page New Shoes/index.html"> <img
+                                    src="./address/Websites/Lading Page/Landing Page New Shoes/Landing Page New Shoes.PNG"
+                                    alt="Lading Page New Shoes"></a>
+                        </div>
+                    </div>
+                    <div class="portfolio__cards area-5">
+                        <h4><span>Login</span> Pages</h4>
+                        <div class="image__portfolio">
+                            <a href="./address/IMG - Portfolio/Login Pages/Dark Login - layout final.png"
+                                target="_blank">
+                                <img src="./address/IMG - Portfolio/Login Pages/Dark Login - layout final.png"
+                                    alt="Login Page Dark Login"></a>
+                            <a href="./address/Websites/Login Page/Login Page Light/index.html" target="_blank"> <img
+                                    src="./address/IMG - Portfolio/Login Pages/Light Login - layout final.jpg"
+                                    alt="Login Page Light Login"></a>
+                            <a href="./address/Websites/Login Page/Login Page Transparent/index.html" target="_blank">
+                                <img src="./address/IMG - Portfolio/Login Pages/Transparent Login - layout final.PNG"
+                                    alt="Lading Page Transparent Login"></a>
+                        </div>
+                    </div>
+                    <div class="portfolio__cards area-5">
+                        <h4><span>Websites</span> Completes</h4>
+                        <div class="image__portfolio">
+                            <a href="./address/Websites/Website Complete/Page Shoes E-commerce/index.html"
+                                target="_blank">
+                                <img src="./address/IMG - Portfolio/Websites Complete Pages/Website E-Commerce Nike Shoes.jpg"
+                                    alt="Complete Website E-Commerce Nike Shoes"></a>
+                            <a href="./address/Websites/Website Complete/Coffe Shop Page/index.html" target="_blank">
+                                <img src="./address/IMG - Portfolio/Websites Complete Pages/Website E-Commerce Coffe's.png"
+                                    alt="Complete Website E-Commerce Coffe's"></a>
+                            <a href="./address/Websites/Website Complete/Page buy cars/index.html" target="_blank"> <img
+                                    src="./address/IMG - Portfolio/Websites Complete Pages/Website Cars Sales.png"
+                                    alt="Complete Website Cars Sales"></a>
+                            <a href="./address/Websites/Website Complete/Site de Relacionamentos/index.html"
+                                target="_blank"> <img
+                                    src="./address/IMG - Portfolio/Websites Complete Pages/Website Love in Program.PNG"
+                                    alt="Complete Website Love in Program"></a>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer class="footer">
+            <section id="Contact area-6">
+                <article class="contact reveal-6">
+                    <h2>Contact Me</h2>
+                    <div class="contact__txt area-6">
+                        <h3>Hire Me</h3>
+                        <h4>for create you website.</h4>
+                        <p>Ficou interessado(a) ?! Não perca tempo !<br>
+                            Entre em contato comigo e venha fazer o seu orçamento, garanto que não vá se
+                            arrepender.</p>
+                        <div class="contact__icons">
+                            <a href="https://wa.me/5511940706705?text=Ol%C3%A1%2C%20Quero%20fazer%20um%20or%C3%A7amento."
+                                target="_blank"><img src="./address/img/Icons/whatsapp.png"
+                                    alt="Icone do Aplicativo Whatsapp"></a>
+                            <a href="https://www.linkedin.com/in/igor-of178b64/" target="_blank"><img
+                                    src="./address/img/Icons/linkedin.png" alt="Icone do site Linkedin"></a>
+                            <a href="https://github.com/Igor-0F" target="_blank"><img
+                                    src="./address/img/Icons/github.png" alt="Icone do site GitHub"></a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <aside class="credits">
+                <h5> Desenvolvido por <span>Igor Oliveira</span> || 2022 || Todos os direitos reservados.</h5>
+            </aside>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/destaque.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Avenir Roman';
+    src: url(../adress/fonts/avenir-roman.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Avenir Roman', sans-serif;
+}
+
+body {
+    background: url(../adress/img/bg.jpg) no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: #f9f9f9;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    transition: .2s ease;
+}
+
+.btn:hover {
+    background: #f9f9f9;
+    color: #000;
+}
+
+img.franchise {
+    max-width: 600px;
+    position: absolute;
+    bottom: 25px;
+}
+
+img.logo {
+    max-width: 160px;
+}
+
+.hero-content {
+    padding-left: 80px;
+    margin-top: -10px;
+}
+
+.hero-content p {
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(192, 192, 192, 0.8);
+    margin-top: 16px;
+}
+
+h1 {
+    font-size: 44px;
+    line-height: 53px;
+    color: #f9f9f9;
+    margin: 20px 0 30px 0;
+}
+
+h2 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.precos-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.preco span {
+    color: #f9f9f9;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.preco {
+    width: 320px;
+    max-width: 100%;
+    margin-right: 20px;
+    height: 180px;
+    color: rgba(192, 192, 192, 0.8);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.preco a {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: blue;
+    display: block;
+    border-radius: 4px;
+    text-align: center;
+    color: #f9f9f9;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding: 16.5px;
+    transition: .2s ease;
+}
+
+.preco a:hover {
+    background: #0483ee;
+}
+
+.preco p:first-child {
+    margin: 0;
+}
+
+.preco p {
+    margin: 16px 0;
+}
+
+.preco+.preco {
+    margin-left: 32px;
+}

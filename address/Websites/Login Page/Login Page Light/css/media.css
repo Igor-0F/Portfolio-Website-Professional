@@ -1,0 +1,30 @@
+@media screen and (max-width: 868px) {
+    .container-login .img-box {
+        display: none;
+    }
+
+    .container-login .content-box {
+        width: 100%;
+    }
+
+    .content-box .form-box {
+        width: 100%;
+        padding: 40px;
+        background: white;
+        margin: 50px;
+    }
+
+    .content-box .form-box h3 {
+        margin: 30px 0 10px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .content-box .form-box .remember {
+        flex-wrap: wrap;
+    }
+
+    .content-box .form-box .remember a {
+        margin-top: 20px;
+    }
+}
