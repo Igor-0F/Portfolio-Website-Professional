@@ -1,0 +1,335 @@
+@media screen and (max-width: 600px) {
+    #landing-page {
+        background-position: -20em 0;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar-mobile {
+        display: block;
+        list-style: none;
+        padding: 30px;
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.263);
+    }
+
+    .navbar-mobile li {
+        margin-bottom: 15px;
+    }
+
+    .navbar-mobile a {
+        font-size: 20px;
+    }
+
+    li a:hover {
+        border-bottom: 2px solid transparent;
+        filter: drop-shadow(transparent 0px 1px 3px);
+    }
+
+    .nav-content i {
+        display: block;
+    }
+
+    .download {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+
+    .logo-mid {
+        width: 120px;
+    }
+
+    .txt-content p {
+        width: 85%;
+    }
+
+    .last-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .last-content img {
+        width: 160px;
+    }
+
+    .feature-box {
+        flex-direction: column;
+    }
+
+    .video-feature,
+    .images-feature {
+        width: 85%;
+        margin: 10% auto;
+    }
+
+    .video-feature video,
+    .images-feature img {
+        width: 85%;
+    }
+
+    .video-txt,
+    .images-txt {
+        width: 100%;
+        text-align: justify;
+        color: black;
+    }
+
+    .video-txt p,
+    .images-txt p {
+        margin-top: 2%;
+        background-color: #ffffff42;
+    }
+
+    .requirements {
+        flex-direction: column;
+    }
+
+    .requirements h2 {
+        margin: 15% auto;
+    }
+
+    .requirements-box {
+        width: 85%;
+    }
+
+    .box-card {
+        height: 250px;
+        padding: 10px;
+    }
+
+    .list-card .download {
+        text-align: center;
+        align-items: center;
+        align-self: center;
+        margin: auto 5%;
+    }
+
+    .competitive-box {
+        flex-direction: column;
+    }
+
+    .box-img {
+        width: 80%;
+    }
+
+    .box-txt {
+        width: 90%;
+    }
+
+    .box-txt p {
+        width: 100%;
+    }
+
+    .users-content h2 {
+        margin: 10% auto 2%;
+    }
+
+    .users-grid {
+        grid-template-columns: 3fr;
+        gap: 5em;
+    }
+
+    .users-card {
+        width: 100%;
+        margin: 5% auto;
+    }
+
+    .users-txt h4 {
+        margin-bottom: 2%;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+    }
+
+    .footer-content p {
+        width: 100%;
+        font-size: 16px;
+        margin: 1%;
+    }
+
+    .icons-footer {
+        width: 100%;
+        margin: 1%;
+    }
+
+    .footer-link {
+        width: 100%;
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width: 915px) {
+    #landing-page {
+        background-position: cover;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar-mobile {
+        display: block;
+        list-style: none;
+        padding: 30px;
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.263);
+    }
+
+    .navbar-mobile li {
+        margin-bottom: 15px;
+    }
+
+    .navbar-mobile a {
+        font-size: 20px;
+    }
+
+    li a:hover {
+        border-bottom: 2px solid transparent;
+        filter: drop-shadow(transparent 0px 1px 3px);
+    }
+
+    .nav-content i {
+        display: block;
+    }
+
+    .download {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+
+    .logo-mid {
+        width: 120px;
+    }
+
+    .txt-content p {
+        width: 85%;
+    }
+
+    .last-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .last-content img {
+        width: 160px;
+    }
+
+    .feature-box {
+        flex-direction: column;
+    }
+
+    .video-feature,
+    .images-feature {
+        width: 85%;
+        margin: 10% auto;
+    }
+
+    .video-feature video,
+    .images-feature img {
+        width: 85%;
+    }
+
+    .video-txt,
+    .images-txt {
+        width: 100%;
+        text-align: justify;
+        color: black;
+    }
+
+    .video-txt p,
+    .images-txt p {
+        margin-top: 2%;
+        background-color: #ffffff42;
+    }
+
+    .requirements {
+        flex-direction: column;
+    }
+
+    .requirements h2 {
+        margin: 15% auto;
+    }
+
+    .requirements-box {
+        width: 85%;
+    }
+
+    .box-card {
+        height: 250px;
+        padding: 10px;
+    }
+
+    .list-card .download {
+        text-align: center;
+        align-items: center;
+        align-self: center;
+        margin: auto 5%;
+    }
+
+    .competitive-box {
+        flex-direction: column;
+    }
+
+    .box-img {
+        width: 80%;
+    }
+
+    .box-txt {
+        width: 90%;
+    }
+
+    .box-txt p {
+        width: 100%;
+    }
+
+    .users-content h2 {
+        margin: 10% auto 2%;
+    }
+
+    .users-grid {
+        grid-template-columns: 3fr;
+        gap: 5em;
+    }
+
+    .users-card {
+        width: 100%;
+        margin: 5% auto;
+    }
+
+    .users-txt h4 {
+        margin-bottom: 2%;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+    }
+
+    .footer-content p {
+        width: 100%;
+        font-size: 16px;
+        margin: 1%;
+    }
+
+    .icons-footer {
+        width: 100%;
+        margin: 1%;
+    }
+
+    .footer-link {
+        width: 100%;
+        margin: 1%;
+    }
+}

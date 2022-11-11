@@ -1,0 +1,62 @@
+@media screen and (max-width: 770px) {
+    #banner {
+        height: 80vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), #009688);
+    }
+
+    .banner-text h1 {
+        font-size: 44px;
+    }
+
+    .banner-btn a {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .title-text h2 {
+        font-size: 35px;
+    }
+
+    .features-box {
+        flex-direction: column;
+    }
+
+    .features-cards {
+        width: 100%;
+    }
+
+    .features-img img {
+        width: 90%;
+    }
+
+    .single-service {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .service-desc h4 {
+        font-size: 20px;
+    }
+
+    .service-desc p {
+        font-size: 12px;
+    }
+
+    hr {
+        margin: 5px auto;
+    }
+
+    .testimonial-col {
+        flex-basis: 100%;
+    }
+
+    .footer-left,
+    .footer-right {
+        flex-basis: 100%;
+        font-size: 14px;
+    }
+
+    .footer-img {
+        top: 15%;
+    }
+}

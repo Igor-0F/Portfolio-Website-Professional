@@ -1994,6 +1994,10 @@ body {
 
 @media (min-width: 1025px) {
 
+    #preloader {
+        background-size: 5%;
+    }
+
     /*Header*/
 
     .top__header-page {
@@ -2454,8 +2458,9 @@ body {
     }
 
     .flex-certificates img {
-        width: 30%;
+        width: 23%;
         height: 30%;
+        margin: 20px;
         border-radius: 22px;
         filter: drop-shadow(0 0 5px white);
     }
@@ -2507,7 +2512,7 @@ body {
     }
 
     .portfolio__cards {
-        width: 90%;
+        width: 51%;
         padding: 15px;
         margin: 10px 0 10px 0;
         font-weight: bold;
